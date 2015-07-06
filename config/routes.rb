@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  
-  get 'store/index'
 
-  get 'store/show'
+  root 'store#index'
+
+  get 'store/show' => 'store#show', as: :poster
 
 end
