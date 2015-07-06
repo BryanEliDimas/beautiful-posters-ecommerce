@@ -9,6 +9,7 @@ gem 'pg'
 
 gem 'payola-payments'
 gem 'bootstrap-sass', '~> 3.3.5'
+gem 'dotenv-rails'
 
 
 # Use SCSS for stylesheets
