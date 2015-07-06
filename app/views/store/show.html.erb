@@ -8,3 +8,5 @@
     <%= image_tag @poster.image, class: "img img-thumbnail", width: "600px" %>
   <% end %>
 </div>
+<%= render 'payola/transactions/checkout',
+      sellable: Poster.first %>

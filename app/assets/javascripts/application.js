@@ -11,8 +11,10 @@
 // about supported directives.
 //
 //= require jquery
+//= require payola
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
 //= require jquery
+//= require payola
 //= require bootstrap-sprockets
