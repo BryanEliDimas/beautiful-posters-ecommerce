@@ -1,2 +1,10 @@
-<h1>Store#show</h1>
-<p>Find me in app/views/store/show.html.erb</p>
+<h1><%= @poster.name %></h1>
+
+<div class="row">
+  <%= link_to poster_path(@poster.permalink) do %>
+    <b>Price:</b> <%= @poster.price %>
+    <b>Name:</b><%= @poster.name %>
+    <br>
+    <%= image_tag @poster.image, class: "img img-thumbnail", width: "600px" %>
+  <% end %>
+</div>
